@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="311.0" prefWidth="426.0" style="-fx-background-color: #575757;" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VisualPart.Controllers.MainWindowController">
+   <children>
+      <AnchorPane prefHeight="69.0" prefWidth="426.0" style="-fx-background-color: #3d3d3d;">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Курсовая работа №17" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="41.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="FileB" layoutX="53.0" layoutY="85.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="133.0" text="Ввод и вывод в файл" wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="MatrixB" layoutX="245.0" layoutY="85.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="133.0" text="Действия матрица на матрицу" wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="ShowB" layoutX="53.0" layoutY="174.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="133.0" text="Информация" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="NumberB" layoutX="245.0" layoutY="174.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="133.0" text="Действия матрица на число" wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="350.0" prefWidth="852.0" style="-fx-background-color: #575757;" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VisualPart.Controllers.NumberWindowController">
+   <children>
+      <AnchorPane prefHeight="72.0" prefWidth="852.0" style="-fx-background-color: #3d3d3d;">
+         <children>
+            <Label layoutX="232.0" layoutY="14.0" text="Курсовая работа №17" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="TextArea" editable="false" layoutX="27.0" layoutY="101.0" onMouseClicked="#FileFinder" prefHeight="200.0" prefWidth="200.0" promptText="Первая матрица" />
+      <Button fx:id="BackB" layoutX="738.0" layoutY="311.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="84.0" text="Вернуться">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="TextArea1" layoutX="333.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" promptText="Введите данные...                           Число записывается без пробелов. Вектор записывается через пробел." />
+      <TextArea fx:id="TextArea2" editable="false" layoutX="622.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+      <ComboBox fx:id="ComboBox" layoutX="333.0" layoutY="312.0" prefHeight="25.0" prefWidth="119.0" promptText="Выберите..." />
+      <Button fx:id="FinalB" layoutX="563.0" layoutY="185.0" mnemonicParsing="false" text="=">
+         <font>
+            <Font name="Times New Roman" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="OutB" layoutX="603.0" layoutY="311.0" mnemonicParsing="false" text="Вывести данные">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="266.0" layoutY="188.0" text="*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="51.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
